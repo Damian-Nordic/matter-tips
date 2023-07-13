@@ -5,7 +5,7 @@
 1. Learn the address range for your settings partition:
 
    ```console
-   $ grep -A2 settings_storage build.53/partitions.yml 
+   $ grep -A2 settings_storage build/partitions.yml 
    settings_storage:
      address: 0xfc000
      end_address: 0x100000
